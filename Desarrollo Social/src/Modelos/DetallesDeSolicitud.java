@@ -1,6 +1,9 @@
 package Modelos;
 
 public class DetallesDeSolicitud {
+<<<<<<< HEAD
+    
+
     private String
             idsolicitud,
             idservicio;
@@ -47,4 +50,5 @@ public class DetallesDeSolicitud {
     public void setEstatus(char estatus_ds) {
         this.estatus = estatus_ds;
     }
+>>>>>>> 9bf37d43274558ef8b65bb9fb678fc91944edd76
 }
