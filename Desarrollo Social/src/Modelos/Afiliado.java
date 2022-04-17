@@ -20,23 +20,31 @@ public class Afiliado {
         return id_afi;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId_afi(String id_afi) {
+        this.id_afi = id_afi;
     }
 
-    public String getType() {
-        return type;
+    public String getFundacion() {
+        return Fundacion;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setFundacion(String Fundacion) {
+        this.Fundacion = Fundacion;
+    }
+
+    public void getBeneficiario(){
+         return Beneficiario;
+    }
+
+    public void getBeneficiario(){
+         this.Beneficiario= Beneficiario;
     }
 
     public char getEstatus() {
-        return estatus;
+        return estatus_afi;
     }
 
-    public void setEstatus(char estatus) {
-        this.estatus = estatus;
+    public void setEstatus(char estatus_afi) {
+        this.estatus_afi = estatus_afi;
     }
 }
