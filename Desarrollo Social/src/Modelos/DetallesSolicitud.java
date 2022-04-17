@@ -11,7 +11,7 @@ public class DetallesSolicitud {
               costo;
     private char estatus_ds;
     
-    public DetallesDeSolicitud(String idsolicitud, String idservicio,double costo, char estatus_ds){
+    public DetallesSolicitud(String idsolicitud, String idservicio,double costo, char estatus_ds){
         this.idsolicitud=idsolicitud;
         this.idservicio=idservicio;
         this.costo=costo;
