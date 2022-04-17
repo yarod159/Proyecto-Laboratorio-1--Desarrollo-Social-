@@ -4,8 +4,9 @@ import java.util.Date; //Para usar el tipo de variable Date es necesario importa
 public class Beneficiario extends Persona {
     private 
         char estatusBe;
-        Date fechaNac;
 
+    public Beneficiario(char estatusBe){ 
+        this.estatusBe=estatusBe;
     public Beneficiario (String id, String nombre,String apellido,
     long telefono,String direccion,Date fechaNac,
     String correo, char estatus, char estatusBe) {
@@ -20,13 +21,5 @@ public class Beneficiario extends Persona {
 
     public void setEstatusBe(char estatusBe) {
         this.estatusBe = estatusBe;
-    }
-
-    public Date getFechaNac() {
-        return fechaNac;
-    }
-
-    public void setFechaNac(Date fechaNac) {
-        this.fechaNac = fechaNac;
     }
 }
