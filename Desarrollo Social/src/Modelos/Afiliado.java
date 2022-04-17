@@ -2,41 +2,41 @@ package Modelos;
 
 public class Afiliado {
 
-    private String
+    private Integer
             id_afi,
             Fundacion,
             Beneficiario;
 
     private char estatus_afi;
     
-    public Afiliado (String id_afi, String Fundacion, String Beneficiario, char estatus_afi){
+    public Afiliado (Integer id_afi, Integer Fundacion, Integer Beneficiario, char estatus_afi){
         this.id_afi=id_afi;
         this.Fundacion=Fundacion;
         this.Beneficiario=Beneficiario;
         this.estatus_afi=estatus_afi;
     }
 
-    public String getId_afi() {
+    public Integer getId_afi() {
         return id_afi;
     }
 
-    public void setId_afi(String id_afi) {
+    public void setId_afi(Integer id_afi) {
         this.id_afi = id_afi;
     }
 
-    public String getFundacion() {
+    public Integer getFundacion() {
         return Fundacion;
     }
 
-    public void setFundacion(String Fundacion) {
+    public void setFundacion(Integer Fundacion) {
         this.Fundacion = Fundacion;
     }
 
-    public void getBeneficiario(){
+    public Integer getBeneficiario(){
          return Beneficiario;
     }
 
-    public void getBeneficiario(){
+    public void setBeneficiario(Integer Beneficiario){
          this.Beneficiario= Beneficiario;
     }
 
