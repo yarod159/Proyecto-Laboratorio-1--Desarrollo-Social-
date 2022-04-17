@@ -72,7 +72,7 @@ public class Fundacion {
         return estatusFun;
     }
 
-    public void setPorc(char estatusFun){
+    public void setEstatusFun(char estatusFun){
         this.estatusFun = estatusFun;
     }
 
