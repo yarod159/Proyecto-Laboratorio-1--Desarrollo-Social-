@@ -13,11 +13,11 @@ public class Afiliado {
         this.id_afi=id_afi;
         this.Fundacion=Fundacion;
         this.Beneficiario=Beneficiario
-        this.estatus=estatus;
+        this.estatus_afi=estatus_afi;
     }
 
-    public String getId() {
-        return id;
+    public String getId_afi() {
+        return id_afi;
     }
 
     public void setId(String id) {
