@@ -8,16 +8,16 @@ public class Charla {
         lugar;
     private date fecha;
     private timestamp hora; 
-    private char estatus;
+    private char estatusCh;
 
-    public Charla(string idCharla, string rifGobernacion, string tema, string lugar, date fecha, timestamp hora, char estatus){ 
+    public Charla(string idCharla, string rifGobernacion, string tema, string lugar, date fecha, timestamp hora, char estatusCh){ 
         this.idCharla = idCharla;
         this.rifGobernacion = rifGobernacion;
         this.tema = tema;
         this.lugar = lugar;
         this.fecha = fecha;
         this.hora = hora;
-        this.estatus = estatus;
+        this.estatusCh = estatusCh;
     }
 }
 
@@ -69,6 +69,6 @@ public void setHora(){
     this.hora = hora;
 }
 
-public void setEstatus(char estatus) {
-        this.estatus = estatus;
+public void setEstatusCh(char estatusCh) {
+        this.estatusCh = estatusCh;
 }
