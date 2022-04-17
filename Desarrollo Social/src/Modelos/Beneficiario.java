@@ -1,27 +1,17 @@
 package Modelos;
 
-public class Beneficiario {
-    private date
-        fechaNac;
+public class Beneficiario extends Persona {
     private char estatusBe;
 
-    public Beneficiario(date fechaNac, char estatus){ 
+    public Beneficiario(date fechaNac, char estatusBe){ 
         this.fechaNac=fechaNac;
-        this.estatus=estatus;
+        this.estatusBe=estatusBe;
     }
 
-    public date getFechaNac(){ 
-        return fechaNac;
-     }
-
-    public void setFechaNac(date fechaNac){
-        this.fechaNac=fechaNac;
+    public char getEstatusBe() {
+        return estatusBe;
     }
 
-    public char getEstatus() {
-        return estatus;
-    }
-
-    public void setEstatus(char estatus) {
-        this.estatus = estatus;
+    public void setEstatusBe(char estatusBe) {
+        this.estatusBe = estatusBe;
     }
