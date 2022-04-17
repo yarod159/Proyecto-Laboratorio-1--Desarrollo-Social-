@@ -1,48 +1,48 @@
 package Modelos;
 
 public class Organizacion {
-    private string 
+    private String 
             rifOrganizacion,
             razonSocial,
             sector;
-    private char estatusOrg;
+    private char estatus;
 
-    public Organizacion(string rifOrganizacion, string razonSocial, string sector, char estatusOrg){
+    public Organizacion(String rifOrganizacion, String razonSocial, String sector, char estatus){
         this.rifOrganizacion = rifOrganizacion;
         this.razonSocial = razonSocial;
         this.sector = sector;
-        this.estatusOrg = estatusOrg;
+        this.estatus = estatus;
     }
 
-    public  string getRifOrganizacion(){
+    public  String getRifOrganizacion(){
         return rifOrganizacion;
     }
 
-    public void setRifOrganizacion(string rifOrganizacion){
+    public void setRifOrganizacion(String rifOrganizacion){
         this.rifOrganizacion = rifOrganizacion;
     }
 
-    public  string getRazonSocial(){
+    public  String getRazonSocial(){
         return razonSocial;
     }
 
-    public void setRazonSocial(string razonSocial){
+    public void setRazonSocial(String razonSocial){
         this.razonSocial = razonSocial;
     }
 
-    public string getSector(){
+    public String getSector(){
         return sector;
     }
 
-    public void setSector(string sector){
+    public void setSector(String sector){
         this.sector = sector;
     }
 
-    public char estatusOrg(){
-        return estatusOrg;
+    public char estatus(){
+        return estatus;
     }
 
-    public void setEstatusOrg(char estatusOrg){
-        this.estatusOrg = estatusOrg;
+    public void setEstatusOrg(char estatus){
+        this.estatus = estatus;
     }
-
+}

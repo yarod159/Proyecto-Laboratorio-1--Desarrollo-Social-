@@ -1,32 +1,32 @@
 package Modelos;
 
     public class Donacion {
-    private string
+    private String
     idSolicitud,
     descripcion;
     private int cantidad;
-    private char estatusDo;
+    private char estatus;
 
-    public Donacion(string idSolicitud, string descripcion, int cantidad, char estatusDo){
+    public Donacion(String idSolicitud, String descripcion, int cantidad, char estatus){
         this.idSolicitud = idSolicitud;
         this.descripcion = descripcion;
         this.cantidad = cantidad;
-        this.estatusDo = estatusDo;
+        this.estatus = estatus;
     } 
 
-    public string getIdSolicitud(){
+    public String getIdSolicitud(){
         return idSolicitud;
     }
 
-    public void setIdSolicitud(string idSolicitud){
+    public void setIdSolicitud(String idSolicitud){
         this.idSolicitud = idSolicitud;
     }
 
-    public string getDescripcion(){
+    public String getDescripcion(){
         return descripcion;
     }
 
-    public void setDescripcion(string descripcion){
+    public void setDescripcion(String descripcion){
         this.descripcion = descripcion;
     }
 
@@ -34,14 +34,15 @@ package Modelos;
         return cantidad;
     }
 
-    public void setCantidad(){
+    public void setCantidad(int cantidad){
         this.cantidad = cantidad;
     }
 
-    public char getEstatusDo(){
-        return estatusDo;
+    public char getEstatus(){
+        return estatus;
     }
 
-    public void setEstatusDo(){
-        this.estatusDo = estatusDo;
+    public void setEstatus(char estatus){
+        this.estatus = estatus;
     }
+}

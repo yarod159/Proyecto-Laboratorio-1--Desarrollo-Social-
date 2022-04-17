@@ -1,37 +1,38 @@
 package Modelos;
 
 public class Gobernacion {
-    private string 
+    private String 
             rifGobernacion,
             razonSocial;
-    private char estatusGob;
+    private char estatus;
 
-    public Gobernacion(string rifGobernacion, string razonSocial, char estatusGob){
+    public Gobernacion(String rifGobernacion, String razonSocial, char estatus){
         this.rifGobernacion = rifGobernacion;
         this.razonSocial = razonSocial;
-        this.estatusGob = estatusGob;
+        this.estatus = estatus;
     }
 
-    public  string getRifGobernacion(){
+    public  String getRifGobernacion(){
         return rifGobernacion;
     }
 
-    public void setRifGobernacion(string rifGobernacion){
+    public void setRifGobernacion(String rifGobernacion){
         this.rifGobernacion = rifGobernacion;
     }
 
-    public  string getRazonSocial(){
+    public  String getRazonSocial(){
         return razonSocial;
     }
 
-    public void setRazonSocial(string razonSocial){
+    public void setRazonSocial(String razonSocial){
         this.razonSocial = razonSocial;
     }
 
-    public char estatusGob(){
-        return estatusGob;
+    public char estatus(){
+        return estatus;
     }
 
-    public void setEstatusGob(char estatusGob){
-        this.estatusGob = estatusGob;
+    public void setEstatus(char estatus){
+        this.estatus = estatus;
     }
+}

@@ -1,38 +1,38 @@
 package Modelos;
 
 public class Fundacion {
-    private string 
+    private String 
             rifFundacion,
             rifGobernacion,
             nombre,
             telefono,
             direccion;
     private int porc;
-    private char estatusFun;
+    private char estatus;
 
-    public Fundacion(string rifFundacion, string rifGobernacion, string nombre, string telefono, string direccion, int porc, char estatusFun){
+    public Fundacion(String rifFundacion, String rifGobernacion, String nombre, String telefono, String direccion, int porc, char estatus){
         this.rifFundacion = rifFundacion;
         this.rifGobernacion = rifGobernacion;
         this.nombre = nombre;
         this.telefono = telefono;
         this.direccion = direccion;
         this.porc = porc;
-        this.estatusFun = estatusFun;
+        this.estatus = estatus;
     }
 
-    public  string getRifFundacion(){
+    public  String getRifFundacion(){
         return rifFundacion;
     }
 
-    public void setRifFundacion(string rifFundacion){
+    public void setRifFundacion(String rifFundacion){
         this.rifFundacion=rifFundacion;
     }
 
-    public string getRifGobernacion(){
+    public String getRifGobernacion(){
         return rifGobernacion;
     }
 
-    public void setRifGobernacion(string rifGobernacion){
+    public void setRifGobernacion(String rifGobernacion){
         this.rifGobernacion = rifGobernacion;
     }
 
@@ -44,11 +44,11 @@ public class Fundacion {
         this.nombre = nombre;
     }
 
-    public long getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(long telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
@@ -68,12 +68,12 @@ public class Fundacion {
         this.porc = porc;
     }
 
-    public char estatusFun(){
-        return estatusFun;
+    public char estatus(){
+        return estatus;
     }
 
-    public void setEstatusFun(char estatusFun){
-        this.estatusFun = estatusFun;
+    public void setEstatus(char estatus){
+        this.estatus = estatus;
     }
 
 }
