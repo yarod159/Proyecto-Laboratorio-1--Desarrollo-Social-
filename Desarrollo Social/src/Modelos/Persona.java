@@ -16,8 +16,7 @@ public class Persona {
             long telefono,String direccion,Date fechaNac,
             String correo, char estatus){
         
-        super();
-        
+      
         this.id=id;
         this.nombre=nombre;
         this.apellido=apellido;
