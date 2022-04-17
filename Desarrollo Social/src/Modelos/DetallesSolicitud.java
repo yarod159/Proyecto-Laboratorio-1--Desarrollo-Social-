@@ -1,6 +1,6 @@
 package Modelos;
 
-public class DetallesDeSolicitud {
+public class DetallesSolicitud {
 //<<<<<<< HEAD
     
 
