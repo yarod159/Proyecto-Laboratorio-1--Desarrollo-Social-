@@ -10,7 +10,7 @@ public class Responsable extends Persona {
     public Responsable (String id, String nombre,String apellido,
     long telefono,String direccion,Date fechaNac,
     String correo, char estatusRe) {
-        super(id,nombre,apellido,telefono,direccion,fechaNac,correo,estatus);
+        super(id,nombre,apellido,telefono,direccion,fechaNac,correo);
         this.fechaNac=fechaNac;
         this.estatusRe=estatusRe; 
     }
