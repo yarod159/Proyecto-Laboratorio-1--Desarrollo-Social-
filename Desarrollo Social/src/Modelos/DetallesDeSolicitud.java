@@ -1,7 +1,7 @@
 package Modelos;
 
 public class DetallesDeSolicitud {
-<<<<<<< HEAD
+//<<<<<<< HEAD
     
 
     private String
@@ -22,14 +22,14 @@ public class DetallesDeSolicitud {
         return idsolicitud;
     }
 
-    public void setId(String idsolicitud) {
+    public void setIdsolicitud(String idsolicitud) {
         this.idsolicitud = idsolicitud;
     }
     public String getIdservicio() {
         return idservicio;
     }
 
-    public void setId(String idservicios) {
+    public void setIdservicio(String idservicio) {
     
         this.idservicio = idservicio;
     }
@@ -48,7 +48,7 @@ public class DetallesDeSolicitud {
     }
 
     public void setEstatus(char estatus_ds) {
-        this.estatus = estatus_ds;
+        this.estatus_ds = estatus_ds;
     }
->>>>>>> 9bf37d43274558ef8b65bb9fb678fc91944edd76
+//>>>>>>> 9bf37d43274558ef8b65bb9fb678fc91944edd76
 }

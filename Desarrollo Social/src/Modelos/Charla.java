@@ -1,74 +1,70 @@
 package Modelos;
+import java.util.Date; //Para usar el tipo de variable Date es necesario importar
 
 public class Charla {
-    private string
+    private String
         idCharla,
         rifGobernacion,
         tema,
         lugar;
-    private date fecha;
-    private timestamp hora; 
+    private Date fecha;
     private char estatusCh;
 
-    public Charla(string idCharla, string rifGobernacion, string tema, string lugar, date fecha, timestamp hora, char estatusCh){ 
+    public Charla(String idCharla, String rifGobernacion, String tema, String lugar, Date fecha, char estatusCh) { 
         this.idCharla = idCharla;
         this.rifGobernacion = rifGobernacion;
         this.tema = tema;
         this.lugar = lugar;
         this.fecha = fecha;
-        this.hora = hora;
         this.estatusCh = estatusCh;
     }
-}
 
-public String getIdCharla(){
-    return idCharla;
- }
+    public String getIdCharla() {
+        return idCharla;
+    }
 
-public void setIdCharla(string idCharla){
-    this.idCharla = idCharla;
- }
+    public void setIdCharla(String idCharla) {
+        this.idCharla = idCharla;
+    }
 
-public String getRifGobernacion(){
-     return rifGobernacion;
-  }
+    public String getRifGobernacion() {
+        return rifGobernacion;
+    }
 
-public void setRifGobernacion(string rifGobernacion){
-      this.rifGobernacion = rifGobernacion;
-   }
+    public void setRifGobernacion(String rifGobernacion) {
+        this.rifGobernacion = rifGobernacion;
+    }
 
-public string getTema(){ 
-    return tema;
-}
+    public String getTema() { 
+        return tema;
+    }
 
-public void setTema(string tema){ 
-    this.tema = tema;
-}
+    public void setTema(String tema) { 
+        this.tema = tema;
+    }
 
-public string getLugar(){ 
-    return lugar;
-}
+    public String getLugar() { 
+        return lugar;
+    }
 
-public void setLugar(){ 
-    this.lugar = lugar;
-}
+    public void setLugar(String lugar) { 
+        this.lugar = lugar;
+    }
 
-public date getFecha(){ 
-    return fecha;
-}
+    public Date getFecha() { 
+        return fecha;
+    }
 
-public void setFecha(){ 
-    this.fecha = fecha;
-}
+    public void setFecha(Date fecha) { 
+        this.fecha = fecha;
+    }
 
-public timestamp getHora(){ 
-    return hora;
-}
+    public char getEstatus () {
+        return estatusCh;
+    }
 
-public void setHora(){ 
-    this.hora = hora;
-}
+    public void setEstatusCh(char estatusCh) {
+            this.estatusCh = estatusCh;
+    }
 
-public void setEstatusCh(char estatusCh) {
-        this.estatusCh = estatusCh;
 }
