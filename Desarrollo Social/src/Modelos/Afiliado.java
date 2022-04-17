@@ -12,7 +12,7 @@ public class Afiliado {
     public Afiliado (String id_afi, String Fundacion, String Beneficiario, char estatus_afi){
         this.id_afi=id_afi;
         this.Fundacion=Fundacion;
-        this.Beneficiario=Beneficiario
+        this.Beneficiario=Beneficiario;
         this.estatus_afi=estatus_afi;
     }
 

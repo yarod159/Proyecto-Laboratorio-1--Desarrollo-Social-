@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Persona {
     private String
-            codigo,
+            id,
             nombre,
             apellido,
             direccion,
@@ -13,13 +13,13 @@ public class Persona {
     private Date fechaNac;
     public char estatus;
     
-    public Persona(String codigo, String nombre,String apellido,
+    public Persona(String id, String nombre,String apellido,
             long telefono,String direccion,Date fechaNac,
             String correo, char estatus){
         
         super();
         
-        this.codigo=codigo;
+        this.id=id;
         this.nombre=nombre;
         this.apellido=apellido;
         this.telefono=telefono;
@@ -30,12 +30,12 @@ public class Persona {
         
     }
 
-    public String getcodigo() {
-        return codigo;
+    public String getId() {
+        return id;
     }
 
-    public void setId(String codigo) {
-        this.codigo = codigo;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getnombre() {
